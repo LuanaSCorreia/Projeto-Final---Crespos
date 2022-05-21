@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Playfair+Display:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+  }
+
+  .logo{
+      width: 7%;
+  }
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    font-size: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #9767A9;
+
+}
+
+li:hover{
+font-weight: bold;
+}
+
+input{
+    position: relative;
+    left: 29px;
+    width: 11vw;
+    height: 4.5vh;
+    border-radius:  14px;
+    border: solid #9767A9;
+}
+
+input::placeholder{
+    background: url('Layer_3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+
+header section{
+width: 13%;
+display: flex;
+justify-content: space-evenly;
+}
+
+header section img{
+    width: 2.5vw;
+}
+
+main img{
+    width: 98.9vw;
+    height: 101vh;
+}
+
+h1{
+    width: 30%;
+    position: relative;
+    top:-298px;
+    left: 200px;
+    font-size: 6vw;
+    color: white;
+}
+
+h2{
+    width: 28%;
+    position: relative;
+    top:-440px;
+    left: 795px;
+    font-size: 2.7vw;
+    color: white;
+    font-weight: lighter;
+}

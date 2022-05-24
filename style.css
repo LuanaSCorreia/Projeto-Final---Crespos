@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
+    list-style: none; 
+    
 }
 
 header{
@@ -15,6 +16,10 @@ header{
     width: 100%;
     height: 10vh;
     background-color: white;
+  }
+
+  .menu-hamburguer {
+    display: none;
   }
 
   .logo{
@@ -41,11 +46,13 @@ input{
     left: 29px;
     width: 11vw;
     height: 4.5vh;
-    border-radius:  14px;
-    border: solid #9767A9;
+    border-radius:  12px;
+    border: solid #9767A9 2px;
 }
 
 input::placeholder{
+    position: relative;
+    left:3px;
     background: url('Layer_3.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -265,4 +272,74 @@ p{
     position: absolute; 
     top:3670px;
     left: 780px; 
+}
+
+.boxFour{
+    margin-left:30px ;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 650px;
+}
+
+.boxFour figure{
+    width: 19vw;
+    padding: 5px;    
+}
+
+.boxFour img{
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner-box-two{
+   display: flex;
+   position: relative;
+   bottom: 243px;
+}
+
+.img5{
+    height: 584px;
+}
+
+main{
+    height: 311rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 14vh;
+    background-color: #9767A9;
+}
+
+.direction{
+    display: flex;
+    width: 9%;
+    padding:10px ;
+}
+
+.direction:hover{
+    background-color: #cda3dd;
+    cursor: pointer;
+}
+
+
+footer p{
+    color: white;
+}
+
+@media(max-width:500px){
+    body{
+        background-color: aquamarine;
+    }
+
+    .menu-hamburguer{
+        display: initial;
+    }
+
+    nav{
+        display: none;
+    }
 }

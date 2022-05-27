@@ -39,6 +39,7 @@ ul{
 
 li:hover{
 font-weight: bold;
+cursor: pointer;
 }
 
 input{
@@ -287,6 +288,25 @@ p{
     bottom: 70rem;
 }
 
+.conteiner-img-one{
+ width: 40%;
+ height: 20%;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.div-zero{
+    display: flex;
+}
+
+.div-two{
+    display: flex;
+}
+
+.conteiner-img-three{
+    display: flex;
+}
+
 .boxFour figure{
     width: 19vw;
     padding: 5px;    
@@ -295,16 +315,6 @@ p{
 .boxFour img{
     width: 100%;
     height: 100%;
-}
-
-.conteiner-box-two{
-   display: flex;
-   position: relative;
-   bottom: 323px;
-}
-
-.img5{
-    height: 95vh;
 }
 
 main{
@@ -338,9 +348,7 @@ footer p{
 }
 
 @media(max-width:600px){
-    body{
-        background-color: aquamarine;
-    }
+
 
     .menu-hamburguer{
         display: initial;
@@ -423,6 +431,7 @@ footer p{
     }
     
     .logo{
+    
         width: 15%;               
     }
 
@@ -447,10 +456,12 @@ footer p{
     }
 
     .boxTwo{
-        height:63vh;
+        top: -5px;
+        height:68vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
     }
 
     .boxTwo h3{ 
@@ -458,17 +469,20 @@ footer p{
         width: 72vw;
     }
 
-    .boxTwo p{ 
-        width: 64vw;
-        height: 20vh;
+    .boxTwo p{
+        width: 62vw;
         font-size: 2.6vw;
     }
 
     main{
-        height: 600rem;
+        height: 345rem;
+    }
+
+    h4{
+        width: 70%;
     }
     main p{
-        width: 80%;
+        width: 65%;
         font-size: 2vw;
     }
 
@@ -478,6 +492,10 @@ footer p{
     }
     
      .conteiner-imgOne{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
         left: 1px;
         top:-100px;
         width: 99.8vw;
@@ -485,115 +503,195 @@ footer p{
     }
  
     .imgTwo{
-        top:-50px;
+        top:-80px;
         left: 150px;
     }
     
     .conteiner-imgTwo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
         left: 1px;
-        top:95rem;
-        width: 99.8vw;
-        height: 60vh;
+        top:255%;
+        width: 100vw;
+        height: 57vh;
     }
     
     .imgThree{
-        width: 44%;
-        position: relative;
-        top:-490px;
-        left: 92px;
+        top: 12rem;
+        left: 150px;
     }
     
     .conteiner-imgThree{
-        position: absolute;
-        top:167rem;
-        left: 200px;
-        width: 31%;
-        height: 42%;
-        background-color: #9767A9;
-        color: white;
-        padding: 13px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 100%;
+        height: 34%;
+        left: 1px;
+        top: 124rem;
+        left: 0;
     }
     
     .imgFour{
-        width: 44%;
-        position: relative;
-        bottom:473px;
-        left: 90px;
+        top: 21.5rem;
+        left: 150px;
     }
     
     .conteiner-imgFour{
-        position: absolute;
-        top: 2279px;
+        top: 2379px;
         left: 1px;
-        width: 31%;
-        height: 46%;
-        background-color: #9767A9;
-        color: white;
-        padding: 13px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 100%;
+        height: 38%;
+        left: 1px;
     }
     
     .imgFive{
-        width: 44%;
-        position: relative;
-        bottom:73px;
-        right: -120px;
+        top: 34rem;
+        left: 150px;
     }
     
     .conteiner-imgFive{
-        position: absolute;
-        top:2670px;
-        left: 220px;
-        width: 31%;
-        height: 55%;
-        background-color: #9767A9;
-        color: white;
-        padding: 13px;
+        top:2770px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        width: 100%;
+        height: 57%;
+        left: 1px;
     }
     
     .imgSix{
-        width: 44%;
-        position: relative;
-        bottom:773px;
-        left:90px;
+        top: 51rem;
+        left: 150px;
     }
     
     .conteiner-imgSix{
-        position: absolute;
-        top: 3259px;
+        top: 207rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        width: 100%;
+        height: 35%;
         left: 1px;
-        width: 31%;
-        height: 41%;
-        background-color: #9767A9;
-        color: white;
-        padding: 13px;
     }
     
     .imgSeven{
-        width: 44%;
-        position: relative;
-        bottom:773px;
-        right: -120px;
+        top: 64rem;
+        left: 150px;
     }
     
     .conteiner-imgSeven{
-        position: absolute;
-        top:3670px;
-        left: 220px;
-        width: 31%;
-        height: 35%;
-        background-color: #9767A9;
-        color: white;
-        padding: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        width: 100%;
+        height: 37%;
+        left: 1px;
+        top: 233rem;
     }
 
     .caminho{
-        position: absolute; 
-        top:3670px;
-        left: 1px; 
+        width: 70%;
+        top:250rem;
+        left: 90px; 
+    }
+
+    .conteiner-img-box{
+        border: solid;
+        display: flex;
+        width: 30%;
     }
 
     footer img{
         width: 50%;
     }
+
+    .boxFour{
+        width: 89.8vw;
+        margin-left:30px ;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -87rem;
+    }
+    
+    .conteiner-img-one{
+        border: solid;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .div-zero{
+        display: flex;
+    }
+
+    .king{
+        border:solid ;
+        height: 40vh;
+    }
+
+    .div-one{
+        display: flex;
+        height: 20vh;
+        width: 100%;
+    }
+
+    
+    .div-two{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    
+    }
+
+    .tais{
+        border: solid;
+        height: 30vh;
+        width:vw;
+    }
+
+    .gloria{
+        border: solid;
+        width: 90vw;
+    }
+
+    .conteiner-img-two{
+        border: solid;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .modelo{
+        border: solid;
+        object-fit: cover;
+        width: ;
+    }
+
+    .snoop{
+        height: 50%;
+    }
+    
+    .conteiner-img-three{
+        width: 100%;
+        border: solid;
+        display: flex;
+    }
+    
+    .boxFour figure{
+        width:25vw;   
+    }
+    
+    
 
 }
